@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@300&display=swap');
+.left{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin:40px;
+    box-shadow: 0px 0px 10px rgba(15, 98, 94, 0.656);
+    margin-left: 28px;
+    background-color: 	#34d8e793;
+    height: 70vh;
+    width: 170px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+.upper{
+    display: flex;
+    margin-left: 350px;
+    gap: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+.bb{
+    width: 450px;
+    border: 1px solid black;
+    height: 230px;
+    font-size: 20px;
+    box-shadow: 4px 5px 6px;
+}
+.tl{
+    float: left;
+    line-height: 35px;
+}
+.rl{
+    float: right;
+    line-height: 35px;
+}
+.ub{
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.ach{
+    text-align: center;
+    font-size: 30px;
+}
+.bb h3{
+    font-size: 25px;
+}
+.bb h4{
+    font-size: 20px;
+}
+.lower{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+td{
+    padding:12px;
+}
+.lb{
+    border-radius:8px;
+    background: linear-gradient(90deg,rgb(68, 89, 171),rgb(134, 37, 139));
+    margin-top:20px;
+}
+.rb{
+    border-radius:8px;
+    background: linear-gradient(90deg,rgb(89, 173, 195),blue);
+    margin-top:20px;
+
+}
+.left a{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(15, 2, 8);
+}
+.left img{
+    width: 23px;
+    margin-top: 5px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+}
+caption{
+    margin-bottom: 20px;
+    color:rgb(31, 23, 23);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.tab{
+    border: 5px red solid;
+    border-collapse: collapse;
+    width: 900px;
+}
+th,td{
+    padding: 5px;
+}
+.STUDENT{
+    background: rgb(235,243,103);
+    background: linear-gradient(103deg, rgba(219, 221, 183, 0.562) 39%, rgba(190, 220, 70, 0.584) 56%);
+    width:100vw;
+    height:100vw;
+    margin-top:-29.5px;
+}
+button{
+    background-color: rgb(152, 80, 234);
+    width:150px;
+    height:50px;
+    font-size: medium;
+}
