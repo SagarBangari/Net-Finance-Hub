@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import "../App.css";
-import Carousel from "react-elastic-carousel";
+import {Carousel} from "react-responsive-carousel";
 import Item from "./Item";
 import agrloan from "../images/agrloan.jpg";
 import carloan from "../images/carloan.jpg";
