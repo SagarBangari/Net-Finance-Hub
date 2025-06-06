@@ -39,7 +39,7 @@ const Student = () => {
   useEffect(()=>{
    
     
-    axios.get(`http://localhost:8000/transactionDetails?Sendernumber:${snumber}`)
+    axios.get(`https://net-finance-hub-backend.onrender.com/transactionDetails?Sendernumber:${snumber}`)
     .then(result=>{console.log(result)
       const transactions = result.data;
       setTransactions(transactions)
@@ -49,7 +49,7 @@ const Student = () => {
   },[]);
 
   const Show=()=>{
-    axios.get(`http://localhost:8000/transactionDetails2?Sendernumber:${snumber}`)
+    axios.get(`https://net-finance-hub-backend.onrender.com/transactionDetails2?Sendernumber:${snumber}`)
     .then(result=>{console.log(result)
       const transactions = result.data;
       setTransactions(transactions)

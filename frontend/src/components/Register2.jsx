@@ -22,7 +22,7 @@ const Register2 = () => {
       setPasswordMatch(false);
       return;
     }
-    axios.post('http://localhost:8000/Register2',{username,fullname,email,accnor,ifsc,schoolname,phonenor,password})
+    axios.post('https://net-finance-hub-backend.onrender.com/Register2',{username,fullname,email,accnor,ifsc,schoolname,phonenor,password})
     .then(result => {
       if (result.data.error) {
         seterror2(result.data.error); // Update state with the error message

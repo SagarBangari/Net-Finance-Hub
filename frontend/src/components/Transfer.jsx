@@ -20,7 +20,7 @@ const Transaction = () => {
   const handleFormSubmit=(e)=>{
     e.preventDefault();
 
-    axios.post('http://localhost:8000/transaction',{amount,snumber,rnumber,password})
+    axios.post('https://net-finance-hub-backend.onrender.com/transaction',{amount,snumber,rnumber,password})
     .then(result=>{console.log(result)
       
       const account = result.data.acc;

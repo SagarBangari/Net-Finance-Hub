@@ -13,7 +13,7 @@ const Login2 = () => {
     const handlesubmit = (e) => {
       e.preventDefault();
   
-      axios.post('http://localhost:8000/Login2', { username, phonenor, password })
+      axios.post('https://net-finance-hub-backend.onrender.com/Login2', { username, phonenor, password })
         .then((result) => {
           console.log(result);
           if (result.data.success===true) {

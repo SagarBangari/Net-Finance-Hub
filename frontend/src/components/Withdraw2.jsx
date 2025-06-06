@@ -39,7 +39,7 @@ const Withdraw2 = () => {
 
   const handlesubmit=(e)=>{
     e.preventDefault()
-    axios.post('http://localhost:8000/withdraw',{phonenor,amount})
+    axios.post('https://net-finance-hub-backend.onrender.com/withdraw',{phonenor,amount})
     .then(result=>{console.log(result)
       const account = result.data.acc;
       localStorage.setItem("useraccount", JSON.stringify(account));

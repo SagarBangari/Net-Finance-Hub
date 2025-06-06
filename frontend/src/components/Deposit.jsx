@@ -37,7 +37,7 @@ const Deposit = () => {
 
   const handlesubmit=(e)=>{
     e.preventDefault()
-    axios.post('http://localhost:8000/deposit',{phonenor,amount})
+    axios.post('https://net-finance-hub-backend.onrender.com/deposit',{phonenor,amount})
     .then(result=>{console.log(result)
       const account = result.data.acc;
      

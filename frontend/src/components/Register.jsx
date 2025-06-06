@@ -25,7 +25,7 @@ const Register = () => {
       return;
     }
 
-    axios.post('http://localhost:8000/Register', { username, fullname, email, accnor, ifsc, phonenor, password })
+    axios.post('https://net-finance-hub-backend.onrender.com/Register', { username, fullname, email, accnor, ifsc, phonenor, password })
     .then(result => {
       if (result.data.error) {
         seterror2(result.data.error); // Update state with the error message
